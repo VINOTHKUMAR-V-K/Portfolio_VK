@@ -7,7 +7,7 @@ const MyWorks = () => {
   return (
     <div>
         <div>
-            <div className='d-flex portfolio'>
+            <div data-aos="zoom-out-left" className='d-flex portfolio'>
               <img src={port} alt="portfolio" height={"200px"} width={"350px"} className='border border-5 border-danger '/>
 
               <div className='px-5'>
@@ -15,8 +15,8 @@ const MyWorks = () => {
                 <p className='describe'>Developed a responsive and interactive portfolio website using HTML, CSS, Bootstrap, and React. This project demonstrates my skills in front-end web development and showcases my ability to create visually appealing, user-friendly web applications.</p>
               </div>
             </div>
-            <hr style={{ height: "4px", color: "gray", width: "70%", margin: "auto"}} />
-            <div className='d-flex portfolio'>
+            <hr style={{height: "4px", color: "gray", width: "70%", margin: "auto"}} />
+            <div data-aos="zoom-out-right" className='d-flex portfolio'>
               <div className='px-5'>
               <h1 className='header'>Online Food Order Website</h1>
                 <p className='describe'>The MERN stack-based food ordering website is a robust and user-friendly platform designed to streamline the process of ordering food online. Leveraging the power of MongoDB for data storage, Express.js for the backend, React for the frontend, and Node.js for server-side operations, this website offers a seamless and interactive experience for both customers and restaurant owners.</p>
@@ -24,7 +24,7 @@ const MyWorks = () => {
               <img src={food} alt="portfolio" height={"200px"} width={"350px"} className='border border-5 border-danger '/>
             </div>
             <hr style={{ height: "4px", color: "gray", width: "70%", margin: "auto"}} />
-            <div className='d-flex portfolio'>
+            <div data-aos="zoom-out-left" className='d-flex portfolio'>
               <img src={hotstar} alt="portfolio" height={"200px"} width={"350px"} className='border border-5 border-danger '/>
 
               <div className='px-5'>
