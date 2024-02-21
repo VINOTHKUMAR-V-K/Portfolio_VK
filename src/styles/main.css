@@ -53,7 +53,7 @@ ul li{
 }
 .intro li:nth-child(15) {
     margin-left: 30px; /* adjust the margin value as needed */
-  }.intro li:nth-child(4) {
+  }.intro li:nth-child(3) {
     margin-left: 30px; /* adjust the margin value as needed */
   }
 ul:hover li{
